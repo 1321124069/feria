@@ -1,0 +1,61 @@
+<script>
+    var opcion = prompt("ingrese 1 para mantenimiento\n" + "ingrese 2 para obtener informacion de los componentes\n" + "ingrese 3 para instalar sistema operativo.\n" + "Ingrese 4 para llamar a un tecnico");
+
+    switch (opcion) {
+        case "1":
+        var mantenimiento = prompt("1.hardware o 2.software");
+        switch(mantenimiento){
+            case "1":
+                console.log("Realizar el mantenimiento preventivo en el campo del Hardware de nuestro PC, para evitar el deterioro de los dispositivos que lo conforman, a causa del polvo que se acumula en su interior como también en el exterior del PC.\n"+ "Realizar el Mantenimiento Correctivo de los dispositivos, ya sea reparándolos o cambiándolos por completo, para realizar trabajos con menos pérdida de tiempo y dinero." +"LIMPIEZA PROFUNDA: Para retirar el polvo te recomendamos utilizar el blower que es capaz de lanzar un chorro de aire. Si utilizas una aspiradora tienes que utilizar una brocha o pincel para ayudar en la remoción de grumos (combinación de polvo, grasa o polvo y humedad) teniendo precaución en el movimiento de los mismos para no dañar componentes o aflojar los cables. Con el soplador inyecta aire por todos los sectores. Hay que revisar los conectores internos del PC (puntos en donde se enchufan cables), para asegurarse que no están flojos. Igual procedimiento es aplicable a las placas y módulos de memoria RAM (los malos contactos pueden producir bloqueos y reseteo del PC). La limpieza profunda se le llama a la acción de limpiar todos los componentes del ordenador, desarmando todo el gabinete y limpiar los dispositivos uno por uno.");
+                break;
+            case "2":
+                console.log("ELIMINAR TEMPORALES Y EL CACHE\n" + "Bien con la herramienta de Windows llamada Liberador de espacio en disco o con herramientas de terceros como CCleaner,Se trata de archivos temporales y carpetas generados al instalar o desinstalar programas y juegos o por el mero funcionamiento de Windows. Eliminarlos una vez al mes nos dará más espacio en disco y a larga aligerará el sistema.\n" +"ANALISIS DE VIRUS\n" + "una vez al mes, para asegurarnos, deberíamos hacer un análisis a fondo de nuestro disco duro en busca de programas dañinos, bien con nuestro antivirus por defecto o con uno adicional. Muchas firmas de seguridad ofrecen versiones gratuitas de sus antivirus que funcionan desde el navegador web o que no requieren instalación.")
+                break;
+        }
+            break;
+
+        case "2":
+            var componentes = prompt("1.Procesador\n" + "2.Tarjeta madre\n" + "3.Fuente de poder\n" + "4.Gabinete\n" + "5.Memoria ram\n" + "6.disco duro y de estado solido\n" + "7.Disipador o enfriamiento liquido\n");
+            switch (componentes) {
+                case "1":
+                    console.log("PROCESADOR\n" + "Es el cerebro de la computadora que se encarga de hacer los procesos que se ordenan y está conformado por nucleos e hilos, el nucleo:Es la cantidad maxima de procesos que puede hacer y los hilos: se encarga de administrar los nucleos para que procesen informacion");
+                    break;
+
+                case "2":
+                    console.log("TARJETA MADRE\n" + "Es el cuerpo principal en el cual se conectan los componentes que constituyen una computadora, es una parte fundamental para el armado de una computadora o algun dispositivo electronico.");
+                    break;
+                case "3":
+                    console.log("FUENTE DE PODER\n" + "La fuente de alimentacion sirve para dar energia a los componentes que esta posee, a su vez si el voltaje es menor a lo que necesiten los componentes esta puede dañarse y de igual manera los componentes de la computadora.");
+                    break;
+
+                case "4":
+                    console.log("GABINETE\n" + "Es la estructura metalica cuya funcion es proteger y albergar los componentes de la computadora");
+                    break;
+                case "5":
+                    console.log("MEMORIA RAM\n"+"Es una parte fundamental en donde se almacenan de forma temporal los datos de los programas que se estan utilizando al momento");
+                    break;
+
+                case "6":
+                    console.log("DISCO DURO Y DE ESTADO SOLIDO\n"+"disco duro: Es la unidad de almacenamiento que puede ser externa o interna y se encarga de almacenar la informacion con una velocidad lenta, es mas barata que el disco solido porque su tiempo de vida es mas corto y son lentos sus procesos.\n"+"Disco de estado solido: Es la unidad de almacenamiento mas compacta y mas rapida que el disco duro su tiempo de vida es mas largo a la vez que es mas caro adquirir uno de estos.");
+
+                    break;
+                case "7":
+                console.log("DISIPADOR Y ENFRIAMIENTO LIQUIDO\n"+"Disipador de aire: Se encarga de enfriar el cpu y administrar el calor que genera, es menos eficiente pero su uso es mas para procesadores de ofimatica\n"+"Enfriamiento liquido: Se encarga de enfriar y administrar el calor de manera mas eficiente, se conforma por 3 elementos, la bomba, el bloque liquido y radiador");
+                    break;
+            }
+
+            break;
+
+        case "3":
+            console.log("1.Descargar el sistema operativo\n"+ "2.Buscar en el navegador windows 10.\n" + "3.Descargar windows 10 en una memoria externa\n"+ "4.Hacer click en el sistema y personalizarlo a nuestro gusto\n"+"5.Quitar la memoria usb\n"+"6.Instalacion de windows\n"+"7.Poner la memoria en el dispositivo deseado\n"+"8.Entrar a la bios con f12 o esc y cambiar el sistema de arranque por la memoria\n"+"9.Seleccionar el disco donde se almacenara el sistema operativo\n"+"10.Personalizarlo a tu manera\n"+"11.Retirar la memoria usb y reiniciar");
+            break;
+
+        case "4":
+            console.log("LLAMA A ESTE NUMERO: 5584694521");
+            break;
+
+    }
+
+
+
+</script>
